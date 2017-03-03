@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+</head>
+<body>
+	<script >
+	// EN ESTE CASO PROTEGERE MI CODIGO PARA NO SER VISTO DESDE EL EXTERIOR
+	(fuction(){
+
+				//global poemos accedr a ellas  desde cualquer parte del cuerpo
+			// privada solo pueden ser accedida desde su propia funcion 
+			var variableglobal="esta es global";
+			//alert(variableglobal);
+
+
+			var mifuncion= function(){
+				var variableLocal ="esta es local";
+				alert(variableglobal);
+				variableglobal="esta es un global modificada";
+				alert(variableglobal);
+				alert(variableLocal);
+			}
+
+			//para quese ejecute
+			mifuncion();
+	
+	}())
+
+	
+
+	</script>
+
+</body>
+</html>

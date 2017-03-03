@@ -1,0 +1,61 @@
+* {
+  margin:0px;
+  padding:0px;
+  -webkit-columns: boder-box;
+  -moz-columns: boder-box;
+  columns: boder-box;
+}
+body {
+  background:#2be04d;
+  font-family:arial,herverica, sans-serif;
+  font-size:16px;
+}
+
+.wrap {
+  margin:auto;
+  max-width:800px;
+  width:90%;
+}
+
+.principal {
+  background:#f49445;
+  border-top:20px solid #f69c25;
+  color:#fff;
+  padding : 50px 0;
+  width:100%;
+}
+
+.principal .formulario {
+  color:rgb(203, 38, 93);
+  text-align:center;
+}
+.principal.formulario input[type=text].error{
+  border: 5px solid rgb(18, 170, 56);
+  color :rgb(240, 21, 7);
+}
+.principal .formuario .boton {
+  background:rgb(165, 214, 124);
+  border: 1px solid rgb(92, 242, 208);
+  color:#fff;
+  display:inline-block;
+  font-size:16px;
+  padding:15 px;
+}
+
+.principal .formulario .boton :hover {
+  border: 1px solid #fff;
+}
+/* tareas es decir segundo div*/
+.tarea .lista {
+  list-style: none;
+}
+
+.tarea .lista li a {
+  color:#212121;
+  display:block;
+  padding:20px 0;
+  text-decoration:none;
+}
+.tarea .lista li a : hover {
+  text-decoration: line-through;
+}

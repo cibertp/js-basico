@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>agregado nodos con dom      </title>
+  <meta charset="utf-8">
+</head>
+  <body>
+    <ol id="lista">
+      <li> 1. desde el cielo guiare tus pasos</li>
+      <li> 2. queiro verte feliz quiero verete sonreir</li>
+    </ol>
+    <script>
+
+    var elemento =document.createElement("li");
+    var contenido =document.createTextNode("Nuevo texto");
+
+    elemento.appendChild(contenido);
+
+    //var padre = document.getElementById(Lista);
+    var padre=document.getElementsByTagName("li")[0].parentNode;
+    //var padre = document.getElementById("Lista");
+    padre.appendChild("elemento");
+   //padre.elemento.appendChild(contenido);
+    </script>
+  </body>
+
+
+
+</html>]

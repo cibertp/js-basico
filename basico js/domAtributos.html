@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>agregado nodos con dom      </title>
+  <meta charset="utf-8">
+
+<style>
+      div {
+        width:200px ;
+        height: 200px;
+        background:#dddddd;
+        display : inline-block;
+        margin-right: 10px;
+        boder: 1px solid #aaaaaa ;
+      }
+      .azul {
+        background: #007479;
+        border: 1px solid #000;
+      }
+
+      .rojo {
+        background: #f93939;
+        border: 1px solid #000;
+      }
+</style>
+</head>
+  <body>
+      <section id="contenedor">
+          <div class=""></div>
+          <div class=""></div>
+
+          <script>
+          var elemento = document.createElement("div");
+          var padre= document.getElementById("contenedor");
+          var referencia= document.getElementsByTagName("div")[0];
+        padre.insertBefore(elemento,referencia);
+          elemento.setAttribute("class","azul");
+        //  document.body.appendChild(elemento);
+
+          </script>
+
+      </section>
+
+
+    <script>
+
+
+    </script>
+  </body>
+
+
+
+</html>

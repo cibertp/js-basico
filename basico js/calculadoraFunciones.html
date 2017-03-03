@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> calculadora</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+  <form action="">
+    <input type="text" id="numero1" placeholder="ingrese numero 1 ">
+    <input type="text" id="numero2" placeholder="ingrese numero 2">
+    <input type="button" value="Sumar"  onclick="alert( suma(10, 50) );" >
+  </form>
+
+  <script>
+  var suma=  function (n1,n2){
+      var n1 = parseFloat(document.getElementById("numero1").value);
+      var n2 = parseFloat(document.getElementById("numero2").value);
+
+      var resultado= n1+n2;
+
+  return resultado;
+  }
+
+  ///agregar la funcion 
+
+
+  </script>
+
+  </body>
+
+
+</html>

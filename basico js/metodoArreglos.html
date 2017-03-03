@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arreglo</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+
+	var amigo=["poeta","mario","mariana"];
+	//document.write("Usted  "+amigo[0]+" tiene"+amigo.length+" amigos");
+
+	document.write("ustedes tienen segun su numero de suerte ");
+	document.write(" a "+amigo[0]+" y" + amigo[1] + "en total son " + amigo.length + " es que aqui falta es "+ amigo[2] + " con ella estan completas  aunque si viniera ");
+		amigo[amigo.length]="alexandra";
+		document.write("ustede ahora son "+ amigo.length + "porque ahor a se a aumenta es "+ amigo.length + "ahora si deven d eesta completos" );
+        
+        //ahora com somos bien vagos lo que vamos a aser es  aumenta unos tres en un solo bloque
+        amigo.push("calixto","dhamar","fiorela","venjamin");
+        
+        //eliminare tu amigo del ultimo
+        
+        amigo.pop();
+        
+        // creaa un nuevo grupo y  muestralo en pantalla que luego sera enviado a concatenar
+         var amigo2=["carina", "yeni", "patricia"];
+        document.write(amigo2);
+        
+        var  amigo3= amigo.concat(amigo2);
+        document.write(amigo3);
+
+        //deve de separar para que  que se vea sepado
+        document.write(amigo3.join(" : @ :"));
+        
+        //ordenar lo elemento por completo alfatizado
+
+        var ordenados = amigos3.sort();
+        documet.write(ordenados);
+
+	</script>
+
+</body>
+</html>
