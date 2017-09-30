@@ -1,1 +1,4 @@
  estos son las primeras lineas de cambios que estamos asiendoo atraves del tiempo
+
+
+que buenos cambio de la teclogia de git
